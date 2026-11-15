@@ -1,40 +1,133 @@
-# About me
+<div align="center">
 
-I'm a software engineer in Uruguay. Most of my work is C on Linux and graphics, and I like building things from the bottom up.
+# vx
 
-## Projects
+**Software engineer in Uruguay 🇺🇾 · co-founder of [Poopware Laboratories](https://github.com/poopware-laboratories) · communist ☭**
 
-**[blockclonia](https://github.com/vx9k/blockclonia)**: A Minecraft-style voxel sandbox written from scratch in C11 and Vulkan, with physics in real units and a simulated human body instead of a health bar. Runs on Vulkan 1.0 down to a Raspberry Pi 4.
+I write systems software from the bottom up: C on Linux down to PID 1, Rust and Zig for the tools I live in,<br>
+Vulkan when it has to draw, and TypeScript when it has to be on the web.
 
-**[claude-presence](https://github.com/vx9k/claude-presence)**: Discord Rich Presence for Claude Code, in Rust. A small daemon, driven by Claude Code's hooks, that shows what a session is doing on your Discord profile.
+[![kthread.dev](https://img.shields.io/badge/kthread.dev-portfolio-111?style=for-the-badge&logo=cloudflare&logoColor=F38020)](https://kthread.dev)
+[![Poopware Laboratories](https://img.shields.io/badge/Poopware-Laboratories-6B4423?style=for-the-badge&logo=github&logoColor=white)](https://github.com/poopware-laboratories)
+[![X](https://img.shields.io/badge/@vx9000k-111?style=for-the-badge&logo=x&logoColor=white)](https://x.com/vx9000k)
+[![Email](https://img.shields.io/badge/dev@kthread.dev-111?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:dev@kthread.dev)
 
-**[4suite](https://github.com/vx9k/4suite)**: A self-contained boot stack for Linux in C: 4init, an init that runs as PID 1, and 4rc, a service manager.
+</div>
 
-**[kthread.dev](https://github.com/vx9k/website)**: My portfolio. A static Next.js export served by Cloudflare, with a strict content security policy and no cookies.
+---
 
-**[dots](https://github.com/vx9k/dots)**: Dotfiles.
+## 🧪 Poopware Laboratories
 
-## Skills
+I co-founded **[Poopware Laboratories](https://github.com/poopware-laboratories)**: a small lab that makes software that is anything but crap.
+We build our own stack, from the boot process up:
 
-**Languages:** C, x86 Assembly, Python, JavaScript, TypeScript
+- **[poopterm](https://github.com/poopware-laboratories/poopterm)**: a hardware-accelerated terminal emulator in Rust for Linux, macOS and FreeBSD, with its own Vulkan renderer, font engine, SIMD parser, Sixel and kitty graphics. I'm its main contributor.
+- **[caca](https://github.com/poopware-laboratories/caca)**: a modal terminal code editor in Zig, with Kakoune-style selections and multiple cursors.
+- **[Poop Linux](https://github.com/poopware-laboratories/pooplinux)**: a Linux distribution built from source, on our own kernel fork, init (**[poopsuite](https://github.com/poopware-laboratories/poopsuite)**) and package manager (**[plop](https://github.com/poopware-laboratories/plop)**).
+- Ports and tools for old hardware: legacy iOS, Android tablets and more.
 
-**Web:** HTML, CSS, Next.js, Node.js
+## 📦 Projects
 
-**Networking:** Data link and network layers (L2, L3), transport (L4), presentation and application (L6, L7), nftables, nginx
+Everything I've actually committed to, across my profile and the lab. Regenerated every day by a [GitHub Actions workflow](.github/workflows/projects.yml).
 
-**AI:** How LLMs work, working with AI
+<!-- projects:start -->
+### 🧪 [Poopware Laboratories](https://github.com/poopware-laboratories)
 
-## Interests
+Where I'm a co-founder. Only the repos I've actually committed to.
 
-Cybernetics, CCRU, Nick Land, Mark Fisher, accelerationist theory.
+| Project | What it is | Language | ★ | My commits |
+| :-- | :-- | :-: | :-: | --: |
+| **[poopterm](https://github.com/poopware-laboratories/poopterm)** | 💩 A poop-themed terminal that is anything but crap: a fast, lightweight, hardware-accelerated terminal emulator in Rust for Linux, macOS and FreeBSD, with its own Vulkan renderer, tabs, themes, Sixel and kitty graphics, the kitty keyboard protocol, shell integration, SIMD parsing and its own font engine. | `Rust` | 5 | 371 |
+| **[caca](https://github.com/poopware-laboratories/caca)** | A modern modal code editor for the terminal, written in Zig. Kakoune-style selections, multiple cursors, no dependencies beyond mimalloc. | `Zig` | 2 | 34 |
+| **[pooplinux](https://github.com/poopware-laboratories/pooplinux)** | A Linux distribution built from source, on our own kernel fork, init and package manager. | `Shell` | 0 | 8 |
+| **[pooplabs-apt-repo](https://github.com/poopware-laboratories/pooplabs-apt-repo)** | Repo for poopware debian packages and cydia packages | `Shell` | 1 | 6 |
+| **[poopsuite](https://github.com/poopware-laboratories/poopsuite)** | A self-contained C boot stack (init, rc, logger, user). | `C` | 0 | 6 |
+| **[plop](https://github.com/poopware-laboratories/plop)** | package manager for pooplinux | – | 0 | 4 |
+| **[SoC-Genius](https://github.com/poopware-laboratories/SoC-Genius)** | SoC and device info tool for legacy iOS devices | `Objective-C` | 3 | 3 |
 
-## Languages
+### 🛠️ Personal
+
+| Project | What it is | Language | ★ | My commits |
+| :-- | :-- | :-: | :-: | --: |
+| **[blockclonia](https://github.com/vx9k/blockclonia)** | A Minecraft-style voxel sandbox written from scratch in C11 and Vulkan, with physics that tries to behave like the real world, a simulated human body instead of a health bar, and a renderer tuned for low-end hardware. | `C` | 1 | 245 |
+| **[website](https://github.com/vx9k/website)** | Source for kthread.dev: a static Next.js + Tailwind portfolio served from Cloudflare Workers | `JavaScript` | 0 | 81 |
+| **[dots](https://github.com/vx9k/dots)** | Dotfiles. | – | 0 | 2 |
+| **[nvim](https://github.com/vx9k/nvim)** | My Neovim config. | `Vim Script` | 0 | 2 |
+
+### 📊 What it's written in
+
+<sub>Bytes of code across the 11 repos above (762 commits of mine on their default branches).</sub>
+
+```text
+Rust         ██████████████░░░░░░░░░░   57.2%
+C            ████░░░░░░░░░░░░░░░░░░░░   18.2%
+Zig          ████░░░░░░░░░░░░░░░░░░░░   16.9%
+Python       █░░░░░░░░░░░░░░░░░░░░░░░    2.4%
+Objective-C  ░░░░░░░░░░░░░░░░░░░░░░░░    0.9%
+JavaScript   ░░░░░░░░░░░░░░░░░░░░░░░░    0.8%
+Shell        ░░░░░░░░░░░░░░░░░░░░░░░░    0.8%
+Vim Script   ░░░░░░░░░░░░░░░░░░░░░░░░    0.7%
+```
+
+<sub><i>Generated by <a href="scripts/update_projects.py">update_projects.py</a> on 2026-11-15.</i></sub>
+<!-- projects:end -->
+
+## 🧰 Stack
+
+**Languages**
+
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000?style=flat-square&logo=rust&logoColor=white)
+![Zig](https://img.shields.io/badge/Zig-F7A41D?style=flat-square&logo=zig&logoColor=white)
+![x86 Assembly](https://img.shields.io/badge/x86_Assembly-555?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+
+**Systems and graphics**
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![musl](https://img.shields.io/badge/musl-555?style=flat-square)
+![Vulkan](https://img.shields.io/badge/Vulkan-AC162C?style=flat-square&logo=vulkan&logoColor=white)
+![GLSL](https://img.shields.io/badge/GLSL-5586A4?style=flat-square&logo=opengl&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+
+**Web**: what [kthread.dev](https://github.com/vx9k/website) is made of
+
+![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0F172A?style=flat-square&logo=tailwindcss&logoColor=38BDF8)
+![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflareworkers&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-663399?style=flat-square&logo=css&logoColor=white)
+
+**Networking**: L2 and L3 (data link, network), L4 (transport), L6 and L7 (presentation, application), nftables, nginx
+
+**AI**: how LLMs work, and working with them
+
+## ☭ Politics
+
+I'm a communist. I've been reading **Karl Marx**: *The Communist Manifesto* first, and working my way into the rest.
+I used to call myself an accelerationist. I don't anymore.
+
+What I believe shows up in how I work: free software, licenses that keep it free, and making the tools ourselves instead of renting them.
+
+> *The philosophers have only interpreted the world, in various ways; the point is to change it.*
+> <br>Karl Marx, *Theses on Feuerbach*
+
+**Also into:** cybernetics, Mark Fisher, *Capitalist Realism*.
+
+## 🌎 Languages
 
 Spanish (Uruguay), English.
 
-## Contact
+<div align="center">
 
-- Portfolio: [kthread.dev](https://kthread.dev)
-- Email: dev@kthread.dev
-- X: [@vx9000k](https://x.com/vx9000k)
-- Discord: @vx9k
+---
+
+<sub>**Workers of the world, unite!**</sub>
+
+</div>
